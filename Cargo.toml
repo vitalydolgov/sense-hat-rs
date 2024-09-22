@@ -1,0 +1,10 @@
+[package]
+name = "hello"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+glob = "0.3.1"
+dirs = "5.0.1"
+libc = "0.2.158"
+thiserror = "1.0.63"

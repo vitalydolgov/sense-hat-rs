@@ -1,0 +1,12 @@
+diff --git a/RTIMULib/CMakeLists.txt b/RTIMULib/CMakeLists.txt
+index 0033a26..9abef01 100644
+--- a/RTIMULib/CMakeLists.txt
++++ b/RTIMULib/CMakeLists.txt
+@@ -44,6 +44,7 @@ INCLUDE_DIRECTORIES(${CMAKE_CURRENT_SOURCE_DIR})
+ INCLUDE(${CMAKE_CURRENT_SOURCE_DIR}/../RTIMULibVersion.txt)
+ 
+ SET(LIBRTIMU_SRCS
++    RTIMULib-c.cpp
+     RTFusion.cpp
+     RTFusionRTQF.cpp
+     RTMath.cpp
